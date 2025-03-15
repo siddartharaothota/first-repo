@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        
+    </style>
+</head>
+<center><body>
+    <h2>Student Registration Form</h2>
+    <form method="POST">
+        <table border="4">
+            <tr>
+                <td><label>Name</label></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td><label>Contact Number</label></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio">Male</input> <input type="radio">Female</input></td>
+            </tr>
+
+            <tr>
+                <td><label>Address</label></td>
+                <td><textarea type="text" rows="4"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label>hobbies</label></td>
+                <td>
+                    <input type="checkbox">singing</input>
+                    <input type="checkbox">traveling</input>
+                    <input type="checkbox">reading novels</input>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>skills</label></td>
+                <td>
+                    <input type="checkbox">c</input>
+                    <input type="checkbox">python</input>
+                    <input type="checkbox">java</input>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>highest qualification</label></td>
+                <td>
+                    <select name="qualification" required>
+                        <option value="select">select</option>
+                        <option value="BE">BE</option>
+                        <option value="PHD">PHD</option>
+                        <option value="MTech">MTech</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>district</label></td>
+                <td>
+                    <select name="district" required>
+                        <option value="select">select</option>
+                        <option value="district 1">state 1</option>
+                        <option value="district 2">state 1</option>
+                        <option value="district 3">state 1</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="2"><input type="submit" value="Register"></td>
+            </tr>
+        </table>
+    </form>
+</body></center>
+</html>
